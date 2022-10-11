@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
 /*
      Paleta de cores 
     Verde: #48a09d
@@ -31,13 +48,52 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: white;
+    background-color: rgb(141, 136, 136);
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
+}
+
+section#login > div#formulario > h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+section#login > div#formulario > p{
+    font-size: 0.8em;
+    margin: 5px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section#login form{
+    background-color: rgb(37, 125, 155);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#login > div#formulario > form > input{
+    background-color: transparent;
+    border-top: 0px solid transparent ;
+    border-left: 0px solid transparent ;
+    border-right: 0px solid transparent ;
+    border-bottom: 1px solid blue;
+}
+
+#iuser::placeholder{
+    color: white;
+    text-indent: 10px;
+}
+
+#isenha::placeholder{
+    color: white;
+    text-indent: 10px;
 }
 
 section#login > div#imagem{
